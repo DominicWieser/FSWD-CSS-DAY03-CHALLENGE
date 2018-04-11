@@ -1,0 +1,54 @@
+.logo-left img {
+	width: 62px;
+	height: 39px;
+}
+
+.logo-right img {
+	width: 150px;
+	height: 50px;
+}
+
+.logo-left {
+	width: 33%;
+	float: left;
+}
+
+.logo-right {
+	width: 33%;
+	float: right;
+}
+
+header {
+	padding: 10px;
+	height: 40px;
+}
+
+body {
+	background: #5286C1;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 25px;
+}
+
+nav ul li:nth-child(10) {
+	padding-right: 0px;
+}
+
+nav ul {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+nav {
+	text-align: center;
+	background: #4371A3;
+	margin-left: 10px;
+	margin-right: 10px;
+}
