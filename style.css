@@ -138,4 +138,54 @@ h5 {
 	display: inline;
 }
 
+.gridnews {
+  padding-left: 210px;
+  padding-right: 115px;
+}
 
+.tallimg1 img {
+  width: 156px;
+  height: 247px;
+  position: absolute;
+}
+
+.tallimg2 img {
+  width: 156px;
+  height: 247px;
+  position: absolute;
+  left: 855px;
+}
+
+.longimg1 img {
+  width: 317px;
+  height: 121px;
+  position: absolute;
+  left: 376px;
+}
+
+.longimg2 img {
+  width: 317px;
+  height: 121px;
+  position: absolute;
+  left: 535px;
+  top: 252px;
+}
+
+.shortimg1 img {
+  width: 156px;
+  height: 121px;
+  position: absolute;
+  left: 695px;
+}
+
+.shortimg2 img {
+  width: 156px;
+  height: 121px;
+  position: absolute;
+  left: 376px;
+  top: 252px;
+}
+
+article {
+  margin-top: 265px;
+}
