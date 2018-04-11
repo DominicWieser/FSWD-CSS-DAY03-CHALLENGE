@@ -3,8 +3,8 @@
 }
 
 .logo-left img {
-	width: 62px;
-	height: 39px;
+	width: 90px;
+	height: 60px;
 	margin-left: 250px;
 }
 
@@ -38,6 +38,17 @@ nav ul li a {
 	color: white;
 }
 
+
+nav ul li a:hover {
+	text-decoration: underline;
+	color: #ABB7C6;
+}
+
+nav ul li a:active {
+	text-decoration: underline;
+	color: #ABB7C6;
+}
+
 nav ul li {
 	display: inline;
 	padding-right: 25px;
@@ -50,28 +61,33 @@ nav ul li:nth-child(10) {
 nav ul {
 	padding-top: 4px;
 	padding-bottom: 4px;
+	-webkit-padding-start: 0px;
 }
 
 nav {
 	text-align: center;
 	background: #4371A3;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
 }
 
 p {
 	color: white;
-	font-size: 18px;
-	padding-right: 300px;
+	font-size: 17px;
+	line-height: 1.5;
 }
 
 h2 {
 	text-align: right;
 	padding-right: 30px;
 	text-transform: uppercase;
-	font-weight: 300;
-	font-size: 16px;
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 1.5px;
 	margin-top: 30px;
+	color: #2c2c2c;
+	min-width: 100px;
 }
 
 .float-left {
@@ -86,4 +102,15 @@ h2 {
 
 .spacing {
 	padding: 15px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	width: 100%;
+}
+
+.align-left {
+	padding-right: 300px;
+	min-width: 300px;
 }
